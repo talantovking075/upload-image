@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background: rgb(13, 13, 97);
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.file-input{
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: #140fac;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: blue;
+    }
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}   
+.image-preview{
+    border: 20px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
